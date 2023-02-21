@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Super Contador</title>
+    <link rel="stylesheet" href="contador.css">
+</head>
+
+
+<body>
+    <header>
+        <h1>Passo a passo da contagem </h1> <!--nesse espaço terá: vou de inicio até o final de num em num quando so valores forem dados-->
+    </header>
+
+    <section>
+        <div id="entrada">
+            <p id="pt">Partida:<input type="number" name="Partida" id="Partida" ></p>
+            <p id="cg">Chegada: <input type="number" name="Chegada" id="Chegada"></p>
+            <p id="ps">Passo: <input type="number" name="ps" id="Passo">  </p>
+            <input type="button" value="contar" onclick="carregar()">
+            
+        </div>
+        
+
+        <div>
+            <p id="saída"></p>
+            
+
+
+        </div>
+    </section>
+    <footer>
+        <p>&copy;vitrigo &#x1f33e </p>
+    </footer>
+</body>
+
+<script src="contador.js"></script>
+</html>
